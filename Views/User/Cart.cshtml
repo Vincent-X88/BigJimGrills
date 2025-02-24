@@ -1,0 +1,593 @@
+@model devDynast.ViewModels.MenuViewModel
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Food Website Landing Page";
+    Layout = null; 
+}
+
+<!DOCTYPE html><html lang="zxx"><head>
+        <!--====== Required meta tags ======-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Insurance, Health, Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--====== Title ======-->
+        <title>Foodix - Fast Foods &amp; Restaurants HTML Template</title>
+        <!--====== Favicon Icon ======-->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+        <!--====== Google Fonts ======-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+        <!--====== FontAwesome css ======-->
+        <link rel="stylesheet" href="/Cart/css/all.min.css">
+        <!--====== Bootstrap css ======-->
+        <link rel="stylesheet" href="/Cart/css/bootstrap.min.css">
+        <!--====== Slick-popup css ======-->
+        <link rel="stylesheet" href="/Cart/css/slick.css">
+        <!--====== Nice Select css ======-->
+        <link rel="stylesheet" href="/Cart/css/nice-select.css">
+        <!--====== magnific-popup css ======-->
+        <link rel="stylesheet" href="/Cart/css/magnific-popup.css">
+        <!--====== Jquery UI css ======-->
+        <link rel="stylesheet" href="/Cart/css/jquery-ui.min.css">
+        <!--====== Animate css ======-->
+        <link rel="stylesheet" href="/Cart/css/animate.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="/Cart/css/default.css">
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="/Cart/css/style.css">
+    </head>
+    <body>
+       
+        
+        <!--====== Start Overlay ======-->
+        <div class="offcanvas__overlay"></div>
+        <!--====== End Overlay ======-->
+        <!--====== Start Sidemenu-wrapper-cart Area ======-->
+        
+        <!--====== Start Header Area ======-->
+        <header class="header-area page-header">
+            <div class="container">
+                <div class="header-navigation">
+                    <div class="nav-overlay"></div>
+                    <div class="primary-menu">
+                        <!--=== Site Branding ===-->
+                        <div class="site-branding">
+                            <a href="index.html" class="brand-logo"><img src="/images/logo-main.png" alt="Logo"></a>
+                        </div>
+                        <div class="nav-inner-menu">
+                            <!--=== Foodix Nav Menu ===-->
+                            <div class="foodix-nav-menu">
+                                <!--=== Mobile Logo ===-->
+                                <div class="mobile-logo mb-30 d-block d-xl-none text-center">
+                                    <a href="@Url.Action("Index", "Home")" class="brand-logo"><img src="/images/logo-main.png" alt="Site Logo"></a>
+                                </div>
+                                <!--=== Main Menu ===-->
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li class="menu-item has-children"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                       <li class="menu-item has-children"><a href="@Url.Action("Menu", "User")">Menu</a></li>
+                                       <li class="menu-item has-children"><a href="@Url.Action("Dashboard", "User")">Dashboard</a></li>
+                                    </ul>
+                                </nav>
+                                <!--=== Nav Button ===-->
+                            
+                            </div>
+                            <!--=== Nav Right Item ===-->
+                            <div class="nav-right-item">
+                                <div class="nav-button d-none d-xl-block">
+                                   @if (Context.Session.GetString("UserId") != null)
+        {
+            <!-- User is logged in, show Logout -->
+            <a href="/Account/Logout" class="theme-btn style-one">Logout</a>
+        }
+        else
+        {
+            <!-- User is not logged in, show Login -->
+            <a href="/Account/Login" class="theme-btn style-one">Login</a>
+        }
+                                </div>
+                                <div class="cart-button" id="cartButton">
+                                    <i class="far fa-shopping-cart"></i>
+                                </div>
+                                <div class="navbar-toggler">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!--====== End Header Area ======-->
+        <!--====== Start Page Section ======-->
+        <section class="page-banner">
+            <div class="page-bg-wrapper p-r z-1 bg_cover pt-100 pb-110" style="background-image: url(/Cart/images/page-bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!--=== Page Banner Content ===-->
+                            <div class="page-banner-content text-center">
+                                <h1 class="page-title">Cart</h1>
+                                <ul class="breadcrumb-link">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active">Cart</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--====== End Page Section ======-->
+        <!--====== Start Cart Section ======-->
+        <!--====== Start Cart Section ======-->
+        <!-- Toast Notification Container -->
+<div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3" style="z-index: 1050;">
+    <div id="cartToast" class="toast bg-primary text-white" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
+        <div class="toast-header bg-primary text-white">
+            <strong class="me-auto">Notification</strong>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            <!-- Toast message content will go here -->
+        </div>
+    </div>
+</div>
+
+<section class="cart-section pt-130 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="cart-wrapper wow fadeInUp">
+                    <div class="cart-table table-responsive">
+                        <table class="table">
+    <tbody>
+        @if (Model.CartItems != null && Model.CartItems.Any())
+        {
+            foreach (var item in Model.CartItems)
+            {
+                // Calculate extras total
+                var extrasTotal = item.SelectedExtras?.Sum(extra => extra.Price) ?? 0.0;
+                var itemSubtotal = (item.Price * item.Quantity) + (extrasTotal * item.Quantity);
+
+                <tr>
+                    <td class="thumbnail-title">
+                        <img src="/database/images/menus/@item.Category/@item.ProductImage" alt="Cart Image">
+                        <span class="title"><a href="#">@item.ProductName</a></span>
+                    </td>
+                    <td class="price">R@((item.Price).ToString("F2"))</td>
+                    <td class="quantity">
+                        <div class="quantity-input">
+                            <button class="quantity-down" data-id="@item.Id"><i class="far fa-minus"></i></button>
+                            <input class="quantity" type="text" value="@item.Quantity" name="quantity" readonly>
+                            <button class="quantity-up" data-id="@item.Id"><i class="far fa-plus"></i></button>
+                        </div>
+                    </td>
+                    <td class="subtotal">R@((itemSubtotal).ToString("F2"))</td>
+                    <td class="remove">
+                        <a href="#" class="remove-cart" data-id="@item.Id"><i class="fas fa-trash-alt"></i></a>
+                    </td>
+                </tr>
+
+                // Display selected extras
+                if (item.SelectedExtras != null && item.SelectedExtras.Any())
+                {
+                    foreach (var extra in item.SelectedExtras)
+                    {
+                        <tr>
+                            <td class="extra-title" colspan="4">
+                                <span class="extra-name">+ @extra.Name</span>
+                                <span class="extra-price">(R@(extra.Price.ToString("0.00")))</span>
+                            </td>
+                            <td class="remove">
+                                <a href="#" class="remove-extra" data-item-id="@item.Id" data-extra-id="@extra.Id"><i class="fas fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+                // Display the special note
+                <tr>
+                    <td colspan="4">
+                        <strong>Special Note:</strong> @(!string.IsNullOrEmpty(item.SpecialNote) ? item.SpecialNote : "No special note")
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No items in the cart.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="shopping-cart-total mb-30 wow fadeInUp">
+                    <h4 class="title">Cart Totals</h4>
+                    <table class="table mb-25">
+                        <tbody>
+                            @if (Model.CartItems != null && Model.CartItems.Any())
+                            {
+                                <tr>
+                                    <td>Cart Subtotal</td>
+                                    <td class="price">R@((Model.CartItems.Sum(item => (item.Price * item.Quantity) + ((item.SelectedExtras?.Sum(extra => extra.Price) ?? 0) * item.Quantity))).ToString("F2"))</td>
+                                </tr>
+                                <tr>
+                                    <td class="total"><span>Order Total</span></td>
+                                    <td class="total price">
+                                        <span>R@((Model.CartItems.Sum(item => (item.Price * item.Quantity) + ((item.SelectedExtras?.Sum(extra => extra.Price) ?? 0) * item.Quantity))).ToString("F2"))</span>
+                                    </td>
+                                </tr>
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="2" class="text-center">Your cart is empty. Please add items before proceeding to checkout.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    @if (Model.CartItems != null && Model.CartItems.Any())
+                    {
+                        <div class="order-scheduling">
+                            <div class="form-group">
+                                <input type="checkbox" id="scheduleOrderCheckbox" />
+                                <label for="scheduleOrderCheckbox">Schedule Order</label>
+                            </div>
+                            <div id="scheduleOrderFields" style="display: none;">
+                                <h5>Select Order Pickup Date and Time</h5>
+                                <div class="form-group">
+                                    <label for="orderDate">Select Date:</label>
+                                    <input type="date" id="orderDate" name="orderDate" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="orderTime">Select Time:</label>
+                                    <input type="time" id="orderTime" name="orderTime" required />
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="theme-btn style-one" id="checkoutButton">Proceed to checkout</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script>
+    $(document).ready(function() {
+        // Function to show toast notification
+        function showToast(message, isError = false) {
+            var toastBody = $('#cartToast .toast-body');
+            var toastHeader = $('#cartToast .toast-header');
+            var toast = new bootstrap.Toast($('#cartToast'));
+
+            if (isError) {
+                $('#cartToast').removeClass('bg-primary').addClass('bg-danger');
+                toastHeader.removeClass('bg-primary').addClass('bg-danger');
+            } else {
+                $('#cartToast').removeClass('bg-danger').addClass('bg-primary');
+                toastHeader.removeClass('bg-danger').addClass('bg-primary');
+            }
+
+            toastBody.text(message);
+            toast.show();
+        }
+
+        $('.remove-cart').on('click', function(e) {
+            e.preventDefault();
+            var itemId = $(this).data('id');
+            $.ajax({
+                url: '@Url.Action("RemoveFromCart", "Cart")',
+                type: 'POST',
+                data: { id: itemId },
+                success: function(response) {
+                    if (response.success) {
+                        showToast(response.message); // Show success toast
+                        location.reload(); // Refresh page
+                    } else {
+                        showToast(response.message, true); // Show error toast
+                    }
+                },
+                error: function() {
+                    showToast('Error removing item from cart.', true); // Show error toast
+                }
+            });
+        });
+
+        $(document).on('click', '.quantity-up', function(e) {
+                e.preventDefault();
+                var itemId = $(this).data('id');
+                var quantityInput = $(this).siblings('input.quantity');
+                var currentQuantity = parseInt(quantityInput.val());
+                var newQuantity = (currentQuantity - 1) + 1;
+                updateQuantity(itemId, newQuantity, quantityInput);
+            });
+
+            $(document).on('click', '.quantity-down', function(e) {
+                e.preventDefault();
+                var itemId = $(this).data('id');
+                var quantityInput = $(this).siblings('input.quantity');
+                var currentQuantity = parseInt(quantityInput.val());
+        
+                var newQuantity = (currentQuantity + 1) - 1;
+                updateQuantity(itemId, newQuantity, quantityInput);
+                
+            });
+
+            $(document).ready(function() {
+    // Remove extra
+    $(document).on('click', '.remove-extra', function(e) {
+        e.preventDefault();
+        var itemId = $(this).data('item-id');
+        var extraId = $(this).data('extra-id');
+        
+        $.ajax({
+            url: '@Url.Action("RemoveExtra", "Cart")',
+            type: 'POST',
+            data: { itemId: itemId, extraId: extraId },
+            success: function(response) {
+                if (response.success) {
+                    // Reload the page to reflect the changes
+                     showToast(response.message); // Show error toast
+                    location.reload(); 
+                } else {
+                    showToast(response.message, true); // Show error toast
+                }
+            },
+            error: function() {
+                showToast('Error removing extra.', true); // Show error toast
+            }
+        });
+    });
+});
+
+
+        function updateQuantity(itemId, quantity, quantityInput) {
+            $.ajax({
+                url: '@Url.Action("UpdateQuantity", "Cart")',
+                type: 'POST',
+                data: { id: itemId, quantity: quantity },
+                success: function(response) {
+                    if (response.success) {
+                        quantityInput.val(quantity);
+                        showToast('Quantity updated successfully.');
+                        location.reload(); // Refresh to update totals
+                    } else {
+                        showToast(response.message, true); // Show error toast
+                    }
+                },
+                error: function() {
+                    showToast('Error updating quantity.', true); // Show error toast
+                }
+            });
+        }
+
+       $('#checkoutButton').on('click', function(e) {
+    e.preventDefault();
+
+    // Get the selected order date and time
+    const orderDate = $('#orderDate').val(); // Get date as string
+    const orderTime = $('#orderTime').val(); // Get time as string
+
+    // Check if the schedule order checkbox is checked
+    const isScheduled = $('#scheduleOrderCheckbox').is(':checked');
+
+    // Validate the selected date
+    if (isScheduled && !orderDate) {
+        showToast("Please select a valid date.", true); // Show toast for error
+        return;
+    }
+
+    // Validate the selected time
+    if (isScheduled && !orderTime) {
+        showToast("Please select a valid time.", true); // Show toast for error
+        return;
+    }
+
+    if (isScheduled) {
+        // Additional validations for the scheduling...
+        const orderDateObj = new Date(orderDate);
+        const dayOfWeek = orderDateObj.getUTCDay();
+        if (dayOfWeek === 0 || dayOfWeek === 6) {
+            showToast("Orders cannot be placed on weekends (Saturday and Sunday).", true); // Show toast for error
+            return;
+        }
+
+        const [hours, minutes] = orderTime.split(":").map(Number);
+        if (hours < 9) {
+            showToast("Pickup time cannot be before 09:00.", true); // Show toast for error
+            return;
+        }
+
+        if (hours > 21) {
+            showToast("Pickup time cannot be after 21:00.", true); // Show toast for error
+            return;
+        }
+    }
+
+    // Get the total amount from the page
+    var totalAmount = $('.total.price span').text().replace('R', '').trim();
+
+    // Redirect to the payment page with the total amount and scheduling info as query parameters
+    window.location.href = '@Url.Action("Payment", "Cart")?total=' + encodeURIComponent(totalAmount) + 
+        '&isScheduled=' + encodeURIComponent(isScheduled) +
+        '&date=' + encodeURIComponent(orderDate) +
+        '&time=' + encodeURIComponent(orderTime);
+});
+
+
+document.getElementById('scheduleOrderCheckbox').addEventListener('change', function() {
+        const scheduleOrderFields = document.getElementById('scheduleOrderFields');
+        if (this.checked) {
+            scheduleOrderFields.style.display = 'block'; // Show the date and time fields
+        } else {
+            scheduleOrderFields.style.display = 'none'; // Hide the date and time fields
+        }
+    });
+
+
+// Handle the confirmation button click
+$('#confirmCheckoutButton').on('click', function() {
+    $.ajax({
+        url: '@Url.Action("Checkout", "Cart")',
+        type: 'POST',
+        success: function(response) {
+            if (response.success) {
+                showToast(response.message); // Show success toast
+
+                // Wait for a few seconds before redirecting
+                setTimeout(function() {
+                    // Open the receipt in a new tab
+                    window.open(response.receiptUrl, '_blank');
+                    location.reload(); // Reload after checkout
+                }, 2000); // 2-second delay before opening receipt
+            } else {
+                showToast(response.message, true); // Show error toast
+            }
+        },
+        error: function() {
+            showToast('Error during checkout. Please try again.', true); // Show error toast
+        }
+    });
+
+    // Hide the modal after confirming
+    $('#checkoutConfirmModal').modal('hide');
+});
+
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('#cartButton').on('click', function () {
+            // Redirect to the Cart action in CartController
+            window.location.href = '@Url.Action("Cart", "Cart")';
+        });
+    });
+</script>
+
+
+</section>
+<!--====== End Cart Section ======-->
+
+        <!--====== Start Footer ======-->
+        <footer class="footer-default p-r z-1">
+            <div class="footer-shape f-shape_one scene"><span data-depth=".3"><img src="/Cart/images/shape-2.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_two scene"><span data-depth=".4"><img src="/Cart/images/shape-3.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_three scene"><span data-depth=".5"><img src="/Cart/images/shape-4.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_four scene"><span data-depth=".6"><img src="/Cart/images/shape-5.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_five scene"><span data-depth=".7"><img src="/Cart/images/shape-6.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_six scene"><span data-depth=".8"><img src="/Cart/images/shape-7.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_seven scene"><span data-depth=".9"><img src="/Cart/images/shape-8.png" alt="shape"></span></div>
+            <div class="container">
+                <!--=== Footer Widget Area ===-->
+                <div class="footer-widget-area pt-120 pb-75">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-about-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.html"><img src="/images/logo-white.png" alt="Brand Logo"></a>
+                                    </div>
+                                    <p>Discover culinary delights recipes 
+                                        and inspiration in our delightful 
+                                        food haven..</p>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-contact-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Contact Us</h4>
+                                    <ul class="address-list">
+                                        <li>University of Johannesburg</li>
+                                        <li><a href="tel:+88-344-667-999">062182896</a></li>
+                                        <li><a href="mailto:order@barger.com">bigjim@food.com</a></li>		
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-nav-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Quick Link</h4>
+                                    <ul class="widget-menu">
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Our Menu</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-opening-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Opining time</h4>
+                                    <ul class="opening-schedule">
+                                        <li>Monday<span>: 10.00am - 05.00pm </span></li>
+                                        <li>Tuesday<span>: 10.20am - 05.30pm </span></li>
+                                        <li>Wednesday<span>: 10.30am - 05.50pm </span></li>
+                                        <li>Thursday<span>: 11.00am - 07.10pm </span></li>
+                                        <li>Friday<span class="of-close">: Closed</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=== Copyright Area ===-->
+            <div class="copyright-area text-center">
+                <div class="container">
+                    <div class="copyright-text">
+                        <p>© 2024 All rights reserved design by Pixelfit</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!--====== End Footer ======-->
+        <!--====== Back To Top  ======-->
+        <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+        <!--====== Jquery js ======-->
+        <script src="/Cart/js/jquery-3.6.0.min.js"></script>
+        <!--====== Popper js ======-->
+        <script src="/Cart/js/popper.min.js"></script>
+        <!--====== Bootstrap js ======-->
+        <script src="/Cart/js/bootstrap.min.js"></script>
+        <!--====== Slick js ======-->
+        <script src="/Cart/js/slick.min.js"></script>
+        <!--====== Magnific js ======-->
+        <script src="/Cart/js/jquery.magnific-popup.min.js"></script>
+        <!--====== Nice-select js ======-->
+        <script src="/Cart/js/jquery.nice-select.min.js"></script>
+        <!--====== Parallax js ======-->
+        <script src="/Cart/js/parallax.min.js"></script>
+        <!--====== jquery UI js ======-->
+        <script src="/Cart/js/jquery-ui.min.js"></script>
+        <!--====== WOW js ======-->
+        <script src="/Cart/js/wow.min.js"></script>
+        <!--====== Main js ======-->
+        <script src="/Cart/js/theme.js"></script>
+    
+</body></html>

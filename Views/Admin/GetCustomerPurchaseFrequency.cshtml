@@ -1,0 +1,540 @@
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Customer Purchase Frequency";
+    var userRoleClaim = User.FindFirst(ClaimTypes.Role); 
+    var userRole = userRoleClaim != null ? userRoleClaim.Value : null;
+    Layout = null; 
+}
+  
+
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!--====== Required meta tags ======-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Insurance, Health, Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--====== Title ======-->
+        <title>Big jim Grills - Fast Foods </title>
+        <!--====== Favicon Icon ======-->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+        <!--====== Google Fonts ======-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+        <!--====== FontAwesome css ======-->
+        <link rel="stylesheet" href="/css/all.min.css">
+        <!--====== Bootstrap css ======-->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <!--====== Slick-popup css ======-->
+        <link rel="stylesheet" href="/css/slick.css">
+        <!--====== Nice Select css ======-->
+        <link rel="stylesheet" href="/css/nice-select.css">
+        <!--====== magnific-popup css ======-->
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <!--====== Jquery UI css ======-->
+        <link rel="stylesheet" href="/css/jquery-ui.min.css">
+        <!--====== Animate css ======-->
+        <link rel="stylesheet" href="/css/animate.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="/css/default.css">
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="/css/style.css">
+
+         
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </head>
+<body>
+        <!--====== Start Loader Area ======-->
+        
+        <!--====== Start Overlay ======-->
+        <div class="offcanvas__overlay"></div>
+        <!--====== End Overlay ======-->
+        <!--====== Start Sidemenu-wrapper-cart Area ======-->
+        
+        
+        <!--====== Start Header Area ======-->
+<header class="header-area header-one navigation-white transparent-header">
+    <div class="container">
+        <div class="header-navigation">
+            <div class="nav-overlay"></div>
+            <div class="primary-menu">
+                <!--=== Site Branding ===-->
+                <div class="site-branding">
+                    <a href="index.html" class="brand-logo"><img src="/images/logo-white.png" alt="Logo"></a>
+                </div>
+                <div class="nav-inner-menu">
+                    <!--=== Foodix Nav Menu ===-->
+                    <div class="foodix-nav-menu">
+                        <!--=== Mobile Logo ===-->
+                        <div class="mobile-logo mb-30 d-block d-xl-none text-center">
+                            <a href="index.html" class="brand-logo"><img src="/images/logo-main.png" alt="Site Logo"></a>
+                        </div>
+                        <!--=== Main Menu ===-->
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="menu-item has-children"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                <li class="menu-item has-children"><a href="@Url.Action("Menu", "User")">Menu</a></li>
+ 
+                        
+                        
+                                    <li class="menu-item has-children">
+                                        <a href="@Url.Action("Dashboard", "Admin")">Admin Dashboard</a>
+                                    </li>
+                            
+                                
+                                
+                            </ul>
+                        </nav>
+                        <!--=== Nav Button ===-->
+                        <div class="nav-button mt-50 d-block d-xl-none  text-center">
+                             @if (Context.Session.GetString("UserId") != null)
+        {
+            <!-- User is logged in, show Logout -->
+            <a href="/Account/Logout" class="theme-btn style-one">Logout</a>
+        }
+        else
+        {
+            <!-- User is not logged in, show Login -->
+            <a href="/Account/Login" class="theme-btn style-one">Login</a>
+        }
+                        </div>
+                    </div>
+                    <!--=== Nav Right Item ===-->
+                    <div class="nav-right-item">
+                        <div class="nav-button d-none d-xl-block">
+                             @if (Context.Session.GetString("UserId") != null)
+        {
+            <!-- User is logged in, show Logout -->
+            <a href="/Account/Logout" class="theme-btn style-one">Logout</a>
+        }
+        else
+        {
+            <!-- User is not logged in, show Login -->
+            <a href="/Account/Login" class="theme-btn style-one">Login</a>
+        }
+                        </div>
+                        
+                        <!-- Notification Bell Icon -->
+                        <div class="notification-bell">
+    <a href="#" class="nav-link dropdown-toggle" id="notificationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-bell"></i>
+        <span class="badge badge-danger" id="notificationCount">@ViewBag.UnreadNotificationCount</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationDropdown">
+        <h6 class="dropdown-header">Notifications</h6>
+        <div id="notificationsList">
+            
+        </div>
+        <div class="dropdown-divider"></div>
+        
+    </div>
+</div>
+
+                        <!-- Cart Button -->
+                        <div class="cart-button" id="cartButton">
+                            <i class="far fa-shopping-cart"></i>
+                        </div>
+                        
+                        <div class="navbar-toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--====== End Header Area ======-->
+
+
+        <!--====== Start Hero Section ======-->
+       
+       <section class="page-banner">
+            <div class="page-bg-wrapper p-r z-1 bg_cover pt-100 pb-110" style="background-image: url(/Register/images/page-bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!--=== Page Banner Content ===-->
+                            <div class="page-banner-content text-center">
+                                <h1 class="page-title">Dashboard</h1>
+                                <ul class="breadcrumb-link">
+                                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                    <li  class="active"><a href="/Account/Login"></a>Dashboard</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--====== End Page Section ======-->
+        <!--====== Start Contact Section ======-->
+
+
+
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4" style="color: white;">Customer Purchase Frequency Report</h2>
+
+    <div class="card" style="background-color: #2f2f2f; border-color: white;">
+        <div class="card-body">
+            <div class="form-group">
+                <label for="timeFrameSelect" style="color: white;">Select Time Frame:</label>
+                <select id="timeFrameSelect" class="form-control" style="background-color: #4a4a4a; color: black;">
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+            <button id="generateReportButton" class="btn mb-3" style="background-color: #ff0000; color: white;">Generate Report</button>
+            
+            <!-- Search Input -->
+            <div class="input-group mb-3">
+                <input type="text" id="searchInput" placeholder="Search by Name or Email" class="form-control" style="background-color: #4a4a4a; color: white;">
+                <div class="input-group-append">
+                    <span class="input-group-text" style="background-color: #4a4a4a; color: white;"><i class="fas fa-search"></i></span>
+                </div>
+            </div>
+
+            <!-- Loading message -->
+            <div id="loadingMessage" class="alert alert-info" style="display:none; background-color: #ff0000; color: white;">Loading...</div>
+
+            <!-- No data message -->
+            <div id="noDataMessage" class="alert alert-warning" style="display:none; background-color: #ff0000; color: white;">No data available for the selected time frame.</div>
+
+            <!-- Customer Frequency Table -->
+            <table id="customerFrequencyTable" class="table table-striped mt-4" style="display:none; background-color: #4a4a4a; color: white;">
+                <thead style="background-color: #ff0000;">
+                    <tr>
+                        <th style="color: white;">First Name</th>
+                        <th style="color: white;">Last Name</th>
+                        <th style="color: white;">Email</th>
+                        <th style="color: white;">Purchase Count</th>
+                        <th style="color: white;">Segment</th>
+                        <th style="color: white;">Last Purchase Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be dynamically inserted here -->
+                </tbody>
+            </table>
+
+            <!-- Line Chart for Trends -->
+            <div class="mt-4">
+                <canvas id="purchaseTrendsChart" width="400" height="200" style="display:none;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        let purchaseTrendsChart; // Variable to hold the chart instance
+
+        $('#generateReportButton').click(function () {
+            var timeFrame = $('#timeFrameSelect').val();
+            
+            // Show loading message and hide table/no data message
+            $('#loadingMessage').show();
+            $('#customerFrequencyTable').hide();
+            $('#noDataMessage').hide();
+            $('#purchaseTrendsChart').hide(); // Hide chart initially
+
+            // Fetch data from the controller using the selected time frame
+            fetch(`/Admin/GetCustomerPurchaseFrequency/${timeFrame}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    $('#loadingMessage').hide(); // Hide loading message
+                    var tbody = $('#customerFrequencyTable tbody');
+                    tbody.empty(); // Clear existing data
+                    
+                    if (data.length > 0) {
+                        // Show table if data is available
+                        $('#customerFrequencyTable').show();
+
+                        // Prepare data for the line chart 
+                        const purchaseDates = data.map(item => new Date(item.lastPurchaseDate).toLocaleDateString());
+                        const purchaseCounts = data.map(item => item.purchaseCount);
+
+                        // Destroy the previous chart instance if it exists
+                        if (purchaseTrendsChart) {
+                            purchaseTrendsChart.destroy();
+                        }
+
+                        // Create the line chart
+                        var ctx = document.getElementById('purchaseTrendsChart').getContext('2d');
+                        purchaseTrendsChart = new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: purchaseDates,
+                                datasets: [{
+                                    label: 'Purchase Trends',
+                                    data: purchaseCounts,
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 2,
+                                    fill: false
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    y: {
+                                        beginAtZero: true,
+                                        title: {
+                                            display: true,
+                                            text: 'Number of Purchases'
+                                        }
+                                    },
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Date'
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                        $('#purchaseTrendsChart').show(); // Show the chart
+
+                        // Loop through the data and insert rows into the table
+                        data.forEach(function (item) {
+                            var row = `<tr>
+                                <td>${item.firstName}</td>
+                                <td>${item.lastName}</td>
+                                <td>${item.email}</td>
+                                <td>${item.purchaseCount}</td>
+                                <td>${item.segment}</td>
+                                <td>${new Date(item.lastPurchaseDate).toLocaleDateString()}</td>
+                            </tr>`;
+                            tbody.append(row);
+                        });
+                    } else {
+                        // Show no data message if data is empty
+                        $('#noDataMessage').show();
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching report data:", error);
+                    alert("An error occurred while fetching the report data.");
+                    $('#loadingMessage').hide(); // Hide loading message
+                });
+        });
+
+        // Search functionality
+        $('#searchInput').on('input', function () {
+            var searchValue = $(this).val().toLowerCase();
+            $('#customerFrequencyTable tbody tr').filter(function () {
+                $(this).toggle($(this).text().toLowerCase().indexOf(searchValue) > -1);
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+ <footer class="footer-default p-r z-1">
+            <div class="footer-shape f-shape_one scene"><span data-depth=".3"><img src="/images/shape-2.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_two scene"><span data-depth=".4"><img src="/images/shape-3_1.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_three scene"><span data-depth=".5"><img src="/images/shape-4_1.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_four scene"><span data-depth=".6"><img src="/images/shape-5.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_five scene"><span data-depth=".7"><img src="/images/shape-6.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_six scene"><span data-depth=".8"><img src="/images/shape-7.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_seven scene"><span data-depth=".9"><img src="/images/shape-8.png" alt="shape"></span></div>
+            <div class="container">
+                <!--=== Footer Widget Area ===-->
+                <div class="footer-widget-area pt-120 pb-75">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-about-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.html"><img src="/images/logo-white.png" alt="Brand Logo"></a>
+                                    </div>
+                                    <p>Discover culinary delights recipes 
+                                        and inspiration in our delightful 
+                                        food haven..</p>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-contact-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Contact Us</h4>
+                                    <ul class="address-list">
+                                        <li>University of Johannesburg</li>
+                                        <li><a href="tel:+88-344-667-999">062182896</a></li>
+                                        <li><a href="mailto:order@barger.com">bigjim@food.com</a></li>			
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-nav-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Quick Link</h4>
+                                    <ul class="widget-menu">
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Our Menu</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-opening-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Opining time</h4>
+                                    <ul class="opening-schedule">
+                                        <li>Monday<span>: 10.00am - 05.00pm </span></li>
+                                        <li>Tuesday<span>: 10.20am - 05.30pm </span></li>
+                                        <li>Wednesday<span>: 10.30am - 05.50pm </span></li>
+                                        <li>Thursday<span>: 11.00am - 07.10pm </span></li>
+                                        <li>Friday<span class="of-close">: Closed</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=== Copyright Area ===-->
+            <div class="copyright-area text-center">
+                <div class="container">
+                    <div class="copyright-text">
+                        <p>© 2024 All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!--====== End Footer ======-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+    .dropdown-menu {
+    z-index: 1050; /* Bootstrap default, adjust if needed */
+}
+
+</style>
+<script>
+   $(document).ready(function () {
+    $('#notificationDropdown').on('click', async function (event) {
+    
+
+        // Clear current notifications
+        $('#notificationsList').empty();
+        
+        console.log("Notification bell clicked, fetching notifications...");
+
+        try {
+            const response = await fetch('/Notifications/GetNotifications'); // Adjust URL to your actual API endpoint
+            if (!response.ok) throw new Error('Network response was not ok');
+            
+            const notificationsViewModel = await response.json();
+            
+            console.log("Fetched notifications:", notificationsViewModel);
+
+            // Update notification count
+            $('#notificationCount').text(notificationsViewModel.unreadNotificationCount || 0);
+
+            if (notificationsViewModel.notifications && Array.isArray(notificationsViewModel.notifications) && notificationsViewModel.notifications.length > 0) {
+                notificationsViewModel.notifications.forEach(notification => {
+                    const notificationItem = `
+                        <a class="dropdown-item" href="/Orders/ViewOrder/${notification.orderId}">
+                            <small>${new Date(notification.createdAt).toLocaleString()}</small><br />
+                            ${notification.message}
+                        </a>
+                    `;
+                    $('#notificationsList').append(notificationItem);
+                });
+            } else {
+                console.log("No notifications available.");
+                $('#notificationsList').append('<a class="dropdown-item text-center">No new notifications</a>');
+            }
+        } catch (error) {
+            console.error('Error fetching notifications:', error);
+        }
+    });
+});
+
+</script>
+
+    
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <!--====== Back To Top  ======-->
+        <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+        <!--====== Jquery js ======-->
+        <script src="/js/jquery-3.6.0.min.js"></script>
+        <!--====== Popper js ======-->
+        <script src="/js/popper.min.js"></script>
+        <!--====== Bootstrap js ======-->
+        <script src="/js/bootstrap.min.js"></script>
+        <!--====== Slick js ======-->
+        <script src="/js/slick.min.js"></script>
+        <!--====== Magnific js ======-->
+        <script src="/js/jquery.magnific-popup.min.js"></script>
+        <!--====== Nice-select js ======-->
+        <script src="/js/jquery.nice-select.min.js"></script>
+        <!--====== Parallax js ======-->
+        <script src="/js/parallax.min.js"></script>
+        <!--====== jquery UI js ======-->
+        <script src="/js/jquery-ui.min.js"></script>
+        <!--====== WOW js ======-->
+        <script src="/js/wow.min.js"></script>
+        <!--====== Main js ======-->
+        <script src="/js/theme.js"></script>
+    
+</body></html>

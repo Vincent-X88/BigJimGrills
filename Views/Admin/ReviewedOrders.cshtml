@@ -1,0 +1,160 @@
+@model IEnumerable<ReviewedOrderViewModel>
+
+<style>
+    body {
+        background-color: #FCF3F3; /* Light pinkish background */
+        padding-top: 50px; /* Adds space at the top */
+        padding-bottom: 50px; /* Adds space at the bottom */
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        background-color: #ffffff; /* White background */
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #000; /* Black color for headings */
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        color: #000; /* Black color for column headings */
+        font-weight: bold;
+        background-color: #f9f9f9; /* Light background for column headings */
+    }
+
+    .btn-dark {
+        background-color: #d9534f; /* Dark red button background */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .btn-dark:hover {
+        background-color: #c9302c; /* Darker red on hover */
+    }
+
+    .card {
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .card-body h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .list-group-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .list-group-item img {
+        margin-right: 10px;
+        border-radius: 4px;
+    }
+
+    .list-group-item p {
+        margin: 0;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Reviewed Orders</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Order Number</th>
+                <th>User Name</th>
+                <th>Rating Value</th>
+                <th>Comment</th>
+                <th>Order Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.OrderNumber</td>
+                        <td>@order.UserName</td>
+                        <td>@order.RatingValue</td>
+                        <td>@order.Comment</td>
+                        <td>
+                            <button class="btn btn-dark" data-toggle="collapse" data-target="#details-@order.OrderNumber" aria-expanded="false" aria-controls="details-@order.OrderNumber">
+                                View Details
+                            </button>
+
+                            <div class="collapse" id="details-@order.OrderNumber">
+                                <div class="card card-body mt-2">
+                                    <h5>Order Items</h5>
+                                    <ul class="list-group">
+                                        @foreach (var item in order.OrderItems)
+                                        {
+                                            <li class="list-group-item">
+                                                <img src="/database/images/menus/@item.Category/@item.ProductImage" alt="@item.ProductName" style="width: 50px; height: auto;" />
+                                                <strong>@item.ProductName</strong> (Quantity: @item.Quantity) - R @item.Price.ToString("N2")
+
+                                                <!-- Display Extras if available -->
+                                                @if (item.Extras != null && item.Extras.Any())
+                                                {
+                                                    <p><strong>Extras:</strong></p>
+                                                    <ul>
+                                                        @foreach (var extra in item.Extras)
+                                                        {
+                                                            <li>@extra.Name - R @extra.Price.ToString("N2")</li>
+                                                        }
+                                                    </ul>
+                                                }
+                                                else
+                                                {
+                                                    <p>No extras</p>
+                                                }
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">No reviews found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+}
+

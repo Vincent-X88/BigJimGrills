@@ -1,0 +1,36 @@
+@model List<devDynast.Models.SalesDataViewModel>
+
+@{
+    ViewData["Title"] = "Sales Report";
+}
+
+<h2>Sales Report</h2>
+
+<canvas id="SalesReport" width="400" height="200"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('SalesReport').getContext('2d');
+        var SalesReport = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.Select(m => m.Month))),
+                datasets: [{
+                    label: 'Number of Sales',
+                    data: @Html.Raw(Json.Serialize(Model.Select(m => m.SalesCount))),
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+}

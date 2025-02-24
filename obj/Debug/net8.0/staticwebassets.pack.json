@@ -1,0 +1,1969 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\devDynast.bundle.scp.css",
+      "PackagePath": "staticwebassets\\devDynast.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\default.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\slick.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\css\\style.css",
+      "PackagePath": "staticwebassets\\Cart\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Cart\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\Cart\\images\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\Cart\\images\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\Cart\\images\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\Cart\\images\\cart-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\Cart\\images\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\logo-main.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\logo-main.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\page-bg.jpg",
+      "PackagePath": "staticwebassets\\Cart\\images\\page-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-2.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-3.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-4.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-5.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-6.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-7.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\shape-8.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\shape-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Cart\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Cart\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\Cart\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\about-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\about-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\about-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\about-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\about-5.jpg",
+      "PackagePath": "staticwebassets\\Images\\about-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\about-6.png",
+      "PackagePath": "staticwebassets\\Images\\about-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\author-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\author-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\author-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\author-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\author-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\author-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\author-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\author-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\author-5.jpg",
+      "PackagePath": "staticwebassets\\Images\\author-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\background.jpg",
+      "PackagePath": "staticwebassets\\Images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\background1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\background1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\backgroundjpeg.jpeg",
+      "PackagePath": "staticwebassets\\Images\\backgroundjpeg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\banner-bg-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner-bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-14.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-15.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-16.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-17.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-18.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\blog-19.jpg",
+      "PackagePath": "staticwebassets\\Images\\blog-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\bn-img-3.png",
+      "PackagePath": "staticwebassets\\Images\\bn-img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\bn-img-4.png",
+      "PackagePath": "staticwebassets\\Images\\bn-img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\bn-img-6.png",
+      "PackagePath": "staticwebassets\\Images\\bn-img-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\booking-bg.png",
+      "PackagePath": "staticwebassets\\Images\\booking-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\cart-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\Images\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\favicon.png",
+      "PackagePath": "staticwebassets\\Images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\first_frame_of_video.jpg",
+      "PackagePath": "staticwebassets\\Images\\first_frame_of_video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\flaticon_foodix.svg",
+      "PackagePath": "staticwebassets\\Images\\flaticon_foodix.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\gallery-14.jpg",
+      "PackagePath": "staticwebassets\\Images\\gallery-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\gallery-15.jpg",
+      "PackagePath": "staticwebassets\\Images\\gallery-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\gallery-16.jpg",
+      "PackagePath": "staticwebassets\\Images\\gallery-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\gallery-17.jpg",
+      "PackagePath": "staticwebassets\\Images\\gallery-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\gallery-18.jpg",
+      "PackagePath": "staticwebassets\\Images\\gallery-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\hero-four_bg.png",
+      "PackagePath": "staticwebassets\\Images\\hero-four_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\hero-four_img1.png",
+      "PackagePath": "staticwebassets\\Images\\hero-four_img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\hero-two_bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\hero-two_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\hero-two_img_two.png",
+      "PackagePath": "staticwebassets\\Images\\hero-two_img_two.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\icon-5.svg",
+      "PackagePath": "staticwebassets\\Images\\icon-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\icon-6.svg",
+      "PackagePath": "staticwebassets\\Images\\icon-6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\icon-7.svg",
+      "PackagePath": "staticwebassets\\Images\\icon-7.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\icon-8.svg",
+      "PackagePath": "staticwebassets\\Images\\icon-8.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-10.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-11.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-6.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-7.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-8.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\insta-9.jpg",
+      "PackagePath": "staticwebassets\\Images\\insta-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\intro-bg-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\intro-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\logo-main.png",
+      "PackagePath": "staticwebassets\\Images\\logo-main.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\logo-white.png",
+      "PackagePath": "staticwebassets\\Images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_1.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_10.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_10.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_11.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_11.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_12.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_12.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_2.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_3.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_4.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_5.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_6.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_7.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_8.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-2_9.png",
+      "PackagePath": "staticwebassets\\Images\\menu-2_9.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb1.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb2.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb3.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb4.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb5.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb6.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb7.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\menu-thumb8.png",
+      "PackagePath": "staticwebassets\\Images\\menu-thumb8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\offer-bg1.jpg",
+      "PackagePath": "staticwebassets\\Images\\offer-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\offer-img1.png",
+      "PackagePath": "staticwebassets\\Images\\offer-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\order-1.png",
+      "PackagePath": "staticwebassets\\Images\\order-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\order-bg2.jpg",
+      "PackagePath": "staticwebassets\\Images\\order-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-1.png",
+      "PackagePath": "staticwebassets\\Images\\shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-2.png",
+      "PackagePath": "staticwebassets\\Images\\shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-3.png",
+      "PackagePath": "staticwebassets\\Images\\shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-3_1.png",
+      "PackagePath": "staticwebassets\\Images\\shape-3_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-4.png",
+      "PackagePath": "staticwebassets\\Images\\shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-4_1.png",
+      "PackagePath": "staticwebassets\\Images\\shape-4_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-5.png",
+      "PackagePath": "staticwebassets\\Images\\shape-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-6.png",
+      "PackagePath": "staticwebassets\\Images\\shape-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-7.png",
+      "PackagePath": "staticwebassets\\Images\\shape-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\shape-8.png",
+      "PackagePath": "staticwebassets\\Images\\shape-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\sp-1.png",
+      "PackagePath": "staticwebassets\\Images\\sp-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\sp-2.png",
+      "PackagePath": "staticwebassets\\Images\\sp-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\sp-3.png",
+      "PackagePath": "staticwebassets\\Images\\sp-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\sp-shape-1.png",
+      "PackagePath": "staticwebassets\\Images\\sp-shape-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\team-14.jpg",
+      "PackagePath": "staticwebassets\\Images\\team-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\team-15.jpg",
+      "PackagePath": "staticwebassets\\Images\\team-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\team-16.jpg",
+      "PackagePath": "staticwebassets\\Images\\team-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\text-01.png",
+      "PackagePath": "staticwebassets\\Images\\text-01.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\text-02.png",
+      "PackagePath": "staticwebassets\\Images\\text-02.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\text-03.png",
+      "PackagePath": "staticwebassets\\Images\\text-03.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Register\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Register\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Register\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\default.css",
+      "PackagePath": "staticwebassets\\Register\\css\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Register\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\Register\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Register\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\slick.css",
+      "PackagePath": "staticwebassets\\Register\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\css\\style.css",
+      "PackagePath": "staticwebassets\\Register\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Register\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\cart-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\contact-1.png",
+      "PackagePath": "staticwebassets\\Register\\images\\contact-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\Register\\images\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Register\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\logo-main.png",
+      "PackagePath": "staticwebassets\\Register\\images\\logo-main.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\Register\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\page-bg.jpg",
+      "PackagePath": "staticwebassets\\Register\\images\\page-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-2.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-3.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-4.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-5.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-6.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-7.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\shape-8.png",
+      "PackagePath": "staticwebassets\\Register\\images\\shape-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Register\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Register\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\Register\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\Register\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\default.css",
+      "PackagePath": "staticwebassets\\css\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\flaticon_foodix.css",
+      "PackagePath": "staticwebassets\\css\\flaticon_foodix.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\burger.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\fries.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\fries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\icecream.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\icecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burger4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burger4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burgers\\burger1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burgers\\burger1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burgers\\burger2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burgers\\burger2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burgers\\burger3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burgers\\burger3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burgers\\burger4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burgers\\burger4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\burgers\\burger5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\burgers\\burger5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drink5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drink5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drinks\\drink1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drinks\\drink1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drinks\\drink2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drinks\\drink2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drinks\\drink3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drinks\\drink3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drinks\\drink4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drinks\\drink4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\drinks\\drink5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\drinks\\drink5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries\\fries1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries\\fries1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries\\fries2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries\\fries2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries\\fries3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries\\fries3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries\\fries4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries\\fries4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\fries\\fries5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\fries\\fries5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizza3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizza3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizzas\\pizza1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizzas\\pizza1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizzas\\pizza2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizzas\\pizza2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizzas\\pizza3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizzas\\pizza3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizzas\\pizza4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizzas\\pizza4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\pizzas\\pizza5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\pizzas\\pizza5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiche2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiche2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiches\\sandwich1.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiches\\sandwich1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiches\\sandwich2.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiches\\sandwich2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiches\\sandwich3.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiches\\sandwich3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiches\\sandwich4.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiches\\sandwich4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\menus\\sandwiches\\sandwich5.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\menus\\sandwiches\\sandwich5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\milkshake.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\milkshake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\nuggets.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\nuggets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\pizza.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\pizza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\salad.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\salad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\sandwitch.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\sandwitch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\database\\images\\wrap.jpg",
+      "PackagePath": "staticwebassets\\database\\images\\wrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\flaticon_foodix.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_foodix.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\flaticon_foodix.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_foodix.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\flaticon_foodix.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_foodix.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\fonts\\flaticon_foodix.woff2",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_foodix.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\simplyCountdown.min.js",
+      "PackagePath": "staticwebassets\\js\\simplyCountdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\animate.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\default.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\slick.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\css\\style.css",
+      "PackagePath": "staticwebassets\\orderDetails\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\orderDetails\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\cart-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\logo-main.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\logo-main.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\page-bg.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\page-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-1.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-2.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-3.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-4.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-5.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\product-6.jpg",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-2.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-3.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-4.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-5.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-6.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-6.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-7.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-7.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\shape-8.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\shape-8.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\orderDetails\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\theme.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\orderDetails\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\orderDetails\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625794580346065.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625794580346065.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625800739384093.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625800739384093.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625802070988388.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625802070988388.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625803023869345.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625803023869345.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625804198193384.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625804198193384.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625807370093084.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625807370093084.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625810371649159.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625810371649159.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625812380811287.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625812380811287.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638625812817042426.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638625812817042426.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638626964452112573.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638626964452112573.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629635035012163.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629635035012163.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629637042436508.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629637042436508.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629637576473893.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629637576473893.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629638236408960.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629638236408960.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629656438364621.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629656438364621.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638629658346972830.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638629658346972830.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638630156756144963.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638630156756144963.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638631119802940687.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638631119802940687.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638631120406117877.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638631120406117877.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638631124861519825.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638631124861519825.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638631127848125536.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638631127848125536.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638632009469965765.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638632009469965765.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638632011537852515.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638632011537852515.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638632112072055331.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638632112072055331.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638632120267718491.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638632120267718491.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638632288075733998.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638632288075733998.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638649827849551175.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638649827849551175.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638649857924493451.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638649857924493451.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638649874775827431.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638649874775827431.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638649875848066757.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638649875848066757.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638649881328447479.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638649881328447479.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650102491952453.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650102491952453.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650105843977622.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650105843977622.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650119494582276.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650119494582276.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650141654653535.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650141654653535.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650145304095861.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650145304095861.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650148750675434.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650148750675434.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650245248664725.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650245248664725.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650247995184790.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650247995184790.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650263531013457.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650263531013457.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650754217518067.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650754217518067.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638650760028315229.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638650760028315229.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651032531779494.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651032531779494.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651037744228412.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651037744228412.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651049660352295.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651049660352295.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651056127187199.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651056127187199.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651056890412260.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651056890412260.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651106599180003.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651106599180003.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651118890784170.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651118890784170.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651129989022772.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651129989022772.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651132567721642.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651132567721642.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651158079127705.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651158079127705.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651180698171384.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651180698171384.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651260365221484.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651260365221484.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651272079861517.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651272079861517.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651277762786208.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651277762786208.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651282309226721.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651282309226721.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651283319041039.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651283319041039.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651295830333840.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651295830333840.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651903726333240.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651903726333240.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651988280772387.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651988280772387.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638651999960139609.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638651999960139609.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638652046293349319.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638652046293349319.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638652050547250520.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638652050547250520.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Xolani Mavuso\\Pictures\\devDynast-main_2\\devDynast-main\\wwwroot\\receipts\\receipt_1_638652059314353795.pdf",
+      "PackagePath": "staticwebassets\\receipts\\receipt_1_638652059314353795.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.devDynast.props",
+      "PackagePath": "build\\devDynast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.devDynast.props",
+      "PackagePath": "buildMultiTargeting\\devDynast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.devDynast.props",
+      "PackagePath": "buildTransitive\\devDynast.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.devDynast.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

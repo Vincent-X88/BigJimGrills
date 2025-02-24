@@ -1,0 +1,294 @@
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "User Dashboard";
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!--====== Required meta tags ======-->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Insurance, Health, Agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--====== Title ======-->
+        <title>Big Jim Grills - Fast Food</title>
+        <!--====== Favicon Icon ======-->
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+        <!--====== Google Fonts ======-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+        <!--====== FontAwesome css ======-->
+        <link rel="stylesheet" href="/css/all.min.css">
+        <!--====== Bootstrap css ======-->
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <!--====== Slick-popup css ======-->
+        <link rel="stylesheet" href="/css/slick.css">
+        <!--====== Nice Select css ======-->
+        <link rel="stylesheet" href="/css/nice-select.css">
+        <!--====== magnific-popup css ======-->
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <!--====== Jquery UI css ======-->
+        <link rel="stylesheet" href="/css/jquery-ui.min.css">
+        <!--====== Animate css ======-->
+        <link rel="stylesheet" href="/css/animate.css">
+        <!--====== Default css ======-->
+        <link rel="stylesheet" href="/css/default.css">
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="/css/style.css">
+    
+    </head>
+<body>
+        <!--====== Start Loader Area ======-->
+        
+        <!--====== Start Overlay ======-->
+        <div class="offcanvas__overlay"></div>
+        <!--====== End Overlay ======-->
+        <!--====== Start Sidemenu-wrapper-cart Area ======-->
+        
+        
+        <!--====== Start Header Area ======-->
+        <header class="header-area header-one navigation-white transparent-header">
+            <div class="container">
+                <div class="header-navigation">
+                    <div class="nav-overlay"></div>
+                    <div class="primary-menu">
+                        <!--=== Site Branding ===-->
+                        <div class="site-branding">
+                            <a href="index.html" class="brand-logo"><img src="/images/logo-white.png" alt="Logo"></a>
+                        </div>
+                        <div class="nav-inner-menu">
+                            <!--=== Foodix Nav Menu ===-->
+                            <div class="foodix-nav-menu">
+                                <!--=== Mobile Logo ===-->
+                                <div class="mobile-logo mb-30 d-block d-xl-none text-center">
+                                    <a href="index.html" class="brand-logo"><img src="/images/logo-main.png" alt="Site Logo"></a>
+                                </div>
+                                <!--=== Main Menu ===-->
+                                <nav class="main-menu">
+                                    <ul>
+                                        <li class="menu-item has-children"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                       <li class="menu-item has-children"><a href="@Url.Action("Menu", "User")">Menu</a></li>
+                                       <li class="menu-item has-children"><a href="@Url.Action("Dashboard", "User")">Dashboard</a></li>
+                                      
+
+                                    </ul>
+                                </nav>
+                                <!--=== Nav Button ===-->
+                                
+                            </div>
+                            <!--=== Nav Right Item ===-->
+                            <div class="nav-right-item">
+                                <div class="nav-button d-none d-xl-block">
+                                    @if (Context.Session.GetString("UserId") != null)
+        {
+            <!-- User is logged in, show Logout -->
+            <a href="/Account/Logout" class="theme-btn style-one">Logout</a>
+        }
+        else
+        {
+            <!-- User is not logged in, show Login -->
+            <a href="/Account/Login" class="theme-btn style-one">Login</a>
+        }
+                                </div>
+                                <div class="cart-button" id="cartButton">
+                                    <i class="far fa-shopping-cart"></i>
+                                </div>
+                                <div class="navbar-toggler">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!--====== End Header Area ======-->
+        <!--====== Start Hero Section ======-->
+       
+       <section class="page-banner">
+            <div class="page-bg-wrapper p-r z-1 bg_cover pt-100 pb-110" style="background-image: url(/Register/images/page-bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!--=== Page Banner Content ===-->
+                            <div class="page-banner-content text-center">
+                                <h1 class="page-title">Dashboard</h1>
+                                <ul class="breadcrumb-link">
+                                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                    <li  class="active"><a href="/Account/Login"></a>Dashboard</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--====== End Page Section ======-->
+        <!--====== Start Contact Section ======-->
+
+   
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Rate Item</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price</td>
+                    <td>
+                        <a asp-action="Create" asp-route-itemId="@item.ProductId" class="btn btn-primary">Rate</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+<script>
+    $(document).ready(function () {
+        $('#cartButton').on('click', function () {
+            // Redirect to the Cart action in CartController
+            window.location.href = '@Url.Action("Cart", "Cart")';
+        });
+    });
+</script>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom CSS for additional styling -->
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+</style>
+
+ <footer class="footer-default p-r z-1">
+            <div class="footer-shape f-shape_one scene"><span data-depth=".3"><img src="/images/shape-2.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_two scene"><span data-depth=".4"><img src="/images/shape-3_1.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_three scene"><span data-depth=".5"><img src="/images/shape-4_1.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_four scene"><span data-depth=".6"><img src="/images/shape-5.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_five scene"><span data-depth=".7"><img src="/images/shape-6.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_six scene"><span data-depth=".8"><img src="/images/shape-7.png" alt="shape"></span></div>
+            <div class="footer-shape f-shape_seven scene"><span data-depth=".9"><img src="/images/shape-8.png" alt="shape"></span></div>
+            <div class="container">
+                <!--=== Footer Widget Area ===-->
+                <div class="footer-widget-area pt-120 pb-75">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-about-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.html"><img src="/images/logo-white.png" alt="Brand Logo"></a>
+                                    </div>
+                                    <p>Discover culinary delights recipes 
+                                        and inspiration in our delightful 
+                                        food haven..</p>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-contact-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Contact Us</h4>
+                                    <ul class="address-list">
+                                        <li>University of Johannesburg</li>
+                                        <li><a href="tel:+88-344-667-999">062182896</a></li>
+                                        <li><a href="mailto:order@barger.com">bigjim@food.com</a></li>		
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-nav-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Quick Link</h4>
+                                    <ul class="widget-menu">
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Our Menu</a></li>
+                                        <li><a href="#">Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <!--=== Footer Widget ===-->
+                            <div class="footer-widget footer-opening-widget mb-40 wow fadeInUp">
+                                <div class="widget-content">
+                                    <h4 class="widget-title">Opining time</h4>
+                                    <ul class="opening-schedule">
+                                        <li>Monday<span>: 10.00am - 05.00pm </span></li>
+                                        <li>Tuesday<span>: 10.20am - 05.30pm </span></li>
+                                        <li>Wednesday<span>: 10.30am - 05.50pm </span></li>
+                                        <li>Thursday<span>: 11.00am - 07.10pm </span></li>
+                                        <li>Friday<span class="of-close">: Closed</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=== Copyright Area ===-->
+            <div class="copyright-area text-center">
+                <div class="container">
+                    <div class="copyright-text">
+                        <p>© 2024 All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer><!--====== End Footer ======-->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+        <!--====== Back To Top  ======-->
+        <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>
+        <!--====== Jquery js ======-->
+        <script src="/js/jquery-3.6.0.min.js"></script>
+        <!--====== Popper js ======-->
+        <script src="/js/popper.min.js"></script>
+        <!--====== Bootstrap js ======-->
+        <script src="/js/bootstrap.min.js"></script>
+        <!--====== Slick js ======-->
+        <script src="/js/slick.min.js"></script>
+        <!--====== Magnific js ======-->
+        <script src="/js/jquery.magnific-popup.min.js"></script>
+        <!--====== Nice-select js ======-->
+        <script src="/js/jquery.nice-select.min.js"></script>
+        <!--====== Parallax js ======-->
+        <script src="/js/parallax.min.js"></script>
+        <!--====== jquery UI js ======-->
+        <script src="/js/jquery-ui.min.js"></script>
+        <!--====== WOW js ======-->
+        <script src="/js/wow.min.js"></script>
+        <!--====== Main js ======-->
+        <script src="/js/theme.js"></script>
+    
+</body></html>
