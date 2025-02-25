@@ -6,6 +6,13 @@ Big Jim Grills is a comprehensive e-commerce food ordering platform that combine
 
 ---
 
+## 🎥 Demonstration Videos
+
+- **Short Demo:** [Watch the Short Demo](#)  
+- **Full Demo:** [Watch the Full Demonstration](#)
+
+---
+
 ## 📱 Mobile App Features (Kotlin & Python Flask)
 
 The mobile app offers a user-friendly interface to explore the menu, select special items, add them to your cart, and complete your order with a secure checkout that generates a receipt.
@@ -78,12 +85,6 @@ The admin dashboard is built to ensure smooth operations, from managing orders t
 
 ---
 
-## 🎥 Demonstration Videos
-
-- **Short Demo:** [Watch the Short Demo](#)  
-- **Full Demo:** [Watch the Full Demonstration](#)
-
----
 
 ## 📜 License
 
