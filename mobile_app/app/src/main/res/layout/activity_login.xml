@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="32dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Big Jim Grills"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/additionalMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order your favorite meals with just a few taps!"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@android:color/black"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:elevation="4dp"
+        android:background="@drawable/rounded_black_background"/>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register here!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:autoLink="web" />
+
+
+
+</LinearLayout>

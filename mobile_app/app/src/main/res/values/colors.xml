@@ -1,0 +1,25 @@
+<resources>
+    <!-- General Colors -->
+
+    <!-- Additional Colors -->
+    <color name="nav_item_color">#000000</color> <!-- Black for icons -->
+    <color name="nav_background_color">#FFFFFF</color> <!-- White background -->
+
+    <!-- Add the missing colors -->
+
+    <color name="red">#FF0000</color>
+    <color name="light_gray">#F0F0F0</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="purple_200">#BB86FC</color>
+
+    <color name="light_grey">#BDBDBD</color>
+
+    <color name="dark_grey">#2D2D2D</color>
+    <color name="grey">#B3B3B3</color>
+    <color name="dark_red">#8B0000</color>
+
+</resources>

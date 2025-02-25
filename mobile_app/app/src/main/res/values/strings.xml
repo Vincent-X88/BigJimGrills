@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dev_dyanast</string>
+    <string name="image_description">Product Image</string> logo_description
+    <string name="logo_description">App Logo</string>
+    <string name="product_image_desc">Product Image</string>
+    <string name="category_image_desc">Image Descritpion</string>
+    <string name="menu_item_image_desc">Menu Image\n</string>
+</resources>
