@@ -7,9 +7,8 @@ Big Jim Grills is a comprehensive e-commerce food ordering platform that combine
 ---
 
 ## 🎥 Demonstration Videos
-
-- **Short Demo:** [Watch the Short Demo](#)  
-- **Full Demo:** [Watch the Full Demonstration](#)
+ 
+- **Full Demo:** [Watch the Full Demonstration](https://youtu.be/8F2p_PhdriM)
 
 ---
 
